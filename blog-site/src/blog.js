@@ -1,3 +1,5 @@
+import React from "react";
+
 const blog = {
   name: "My Tech Blog",
   image: "https://via.placeholder.com/150",

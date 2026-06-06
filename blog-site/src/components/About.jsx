@@ -1,3 +1,4 @@
+import React from "react";
 function About({ image, about }) {
   return (
     <section>
