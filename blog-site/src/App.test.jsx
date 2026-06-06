@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { test, expect } from "vitest";
 import App from "./App";
-import blogData from "./data/blog";
+import blogData from "./blog";
 
 test("renders blog name and articles from props", () => {
   render(<App />);
