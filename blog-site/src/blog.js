@@ -1,29 +1,28 @@
 import React from "react";
 
-const blog = {
-  name: "My Tech Blog",
-  image: "https://via.placeholder.com/150",
-  about: "This blog shares insights about coding and learning React.",
+const blogData = {
+  name: "Under the Poly",
+  image: "https://via.placeholder.com/215",
+  about: "A blog about learning React and building cool things.",
   posts: [
     {
       id: 1,
-      title: "Learning React",
-      date: "2026-06-01",
-      preview: "React helps you build modern user interfaces..."
+      title: "Components 101",
+      date: "December 15, 2023",
+      preview: "Setting up your first component architecture.",
     },
     {
       id: 2,
-      title: "Props in Depth",
-      date: "2026-06-02",
-      preview: "Props allow data to flow between components..."
+      title: "React State vs Props",
+      date: "January 5, 2024",
+      preview: "Understanding data flow in React applications.",
     },
     {
       id: 3,
-      title: "Why JavaScript Matters",
-      date: "2026-06-03",
-      preview: "JavaScript is the backbone of the web..."
+      title: "Testing with Vitest",
+      preview: "How to ensure your UI components render correctly.",
     }
-  ]
+  ],
 };
 
-export default blog;
+export default blogData;

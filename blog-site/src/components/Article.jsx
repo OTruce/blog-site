@@ -1,9 +1,10 @@
 import React from "react";
-function Article({ title, date, preview }) {
+
+function Article({ title, date = "January 1, 1970", preview }) {
   return (
     <article>
-      <h2>{title}</h2>
-      <p>{date}</p>
+      <h3>{title}</h3>
+      <small>{date}</small>
       <p>{preview}</p>
     </article>
   );

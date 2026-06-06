@@ -122,17 +122,19 @@
 // export default App
 
 import React from "react";
+import blogData from "./blog";
 import Header from "./components/Header";
 import About from "./components/About";
-import ArticleList from "./components/ArticleList";
-import blog from "./blog";
+import Home from "./components/Home";
+import Links from "./components/Links";
 
 function App() {
   return (
-    <div>
-      <Header name={blog.name} />
-      <About image={blog.image} about={blog.about} />
-      <ArticleList posts={blog.posts} />
+    <div className="App">
+      <Header name={blogData.name} />
+      <About image={blogData.image} about={blogData.about} />
+      <Home posts={blogData.posts} />
+      <Links />
     </div>
   );
 }
