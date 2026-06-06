@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites name="vitest tests" tests="1" failures="1" errors="0" time="0.004324734">
-    <testsuite name="blog-site/src/App.test.jsx" timestamp="2026-06-06T11:08:31.054Z" hostname="nomad-ThinkSmart-Core" tests="1" failures="1" errors="0" skipped="0" time="0.004324734">
-        <testcase classname="blog-site/src/App.test.jsx" name="renders blog name from props" time="0.003487442">
+<testsuites name="vitest tests" tests="1" failures="1" errors="0" time="0.012886364">
+    <testsuite name="blog-site/src/App.test.jsx" timestamp="2026-06-06T11:13:26.669Z" hostname="nomad-ThinkSmart-Core" tests="1" failures="1" errors="0" skipped="0" time="0.012886364">
+        <testcase classname="blog-site/src/App.test.jsx" name="renders blog name from props" time="0.010326783">
             <failure message="document is not defined" type="ReferenceError">
 ReferenceError: document is not defined
  ❯ render node_modules/@testing-library/react/dist/pure.js:256:5
